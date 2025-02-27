@@ -5,6 +5,18 @@ VisualStudioVersion = 17.13.35806.99 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnify.Web.API", "Learnify.Web.API\Learnify.Web.API.csproj", "{58EC8FCE-4A73-4832-89A4-21C91B208C1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnify.Services", "Learnify.Services\Learnify.Services.csproj", "{135FC31D-C5BF-4934-898D-CEEFDC58A585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnify.Data.Services", "Learnify.Data.Services\Learnify.Data.Services.csproj", "{88806D6B-8814-49ED-8861-C16EEE70734C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnify.Common", "Learnify.Common\Learnify.Common.csproj", "{0148EA24-0259-4795-A172-2F34A70C72DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnify.Interactors", "Learnify.Interactors\Learnify.Interactors.csproj", "{8D9E1DA4-F8D0-4637-BEB9-92EF363DBD18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnify.Data.EntityFramework", "Learnify.Data.EntityFramework\Learnify.Data.EntityFramework.csproj", "{C0C46AD4-40C7-43AE-B842-327A8486193F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnify.tests", "Learnify.tests\Learnify.tests.csproj", "{D0EF6775-C865-4BB4-A203-D1358F95633D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{58EC8FCE-4A73-4832-89A4-21C91B208C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58EC8FCE-4A73-4832-89A4-21C91B208C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58EC8FCE-4A73-4832-89A4-21C91B208C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135FC31D-C5BF-4934-898D-CEEFDC58A585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135FC31D-C5BF-4934-898D-CEEFDC58A585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135FC31D-C5BF-4934-898D-CEEFDC58A585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135FC31D-C5BF-4934-898D-CEEFDC58A585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88806D6B-8814-49ED-8861-C16EEE70734C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88806D6B-8814-49ED-8861-C16EEE70734C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88806D6B-8814-49ED-8861-C16EEE70734C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88806D6B-8814-49ED-8861-C16EEE70734C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0148EA24-0259-4795-A172-2F34A70C72DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0148EA24-0259-4795-A172-2F34A70C72DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0148EA24-0259-4795-A172-2F34A70C72DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0148EA24-0259-4795-A172-2F34A70C72DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9E1DA4-F8D0-4637-BEB9-92EF363DBD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9E1DA4-F8D0-4637-BEB9-92EF363DBD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9E1DA4-F8D0-4637-BEB9-92EF363DBD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9E1DA4-F8D0-4637-BEB9-92EF363DBD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C46AD4-40C7-43AE-B842-327A8486193F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C46AD4-40C7-43AE-B842-327A8486193F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C46AD4-40C7-43AE-B842-327A8486193F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C46AD4-40C7-43AE-B842-327A8486193F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0EF6775-C865-4BB4-A203-D1358F95633D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0EF6775-C865-4BB4-A203-D1358F95633D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0EF6775-C865-4BB4-A203-D1358F95633D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0EF6775-C865-4BB4-A203-D1358F95633D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
