@@ -1,0 +1,4 @@
+Create Solution - Learnify.Solutions
+Create Project - Learnify.Web.API
+Create Class Libraries - Learnify.Common,Learnify.Data.EntityFramework,Learnify.Data.Services,Learnify.Interactors
+                         Learnify.Services, Learnify.Tests.
