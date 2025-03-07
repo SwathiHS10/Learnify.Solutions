@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Learnify.Data.EntityFramework\Learnify.Data.EntityFramework.csproj" />
+  </ItemGroup>
+
 </Project>
